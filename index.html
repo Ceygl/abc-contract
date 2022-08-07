@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Design program installation and sales aggrement</h1>
+    <form action="">
+
+        <fieldset>
+            <legend>Agreement Confirmation</legend>
+            <input type="checkbox" id="confirm">
+            <label for="confirm">I agree the terms of this form.</label>
+            <input type="button" value="Save">
+            <input type="button" value="Clear">
+        </fieldset>
+        
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="ID">Safety ID</label>
+            <input type="text" id="ID">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname">
+            <label for="age">Age</label>
+            <input type="number" id="age">
+            <label for="email">E-mail</label>
+            <input type="email" id="email">
+            <label for="pic">Add a Picture</label>
+            <input type="file" id="pic">
+        </fieldset>
+
+        <fieldset>
+            <legend>Other</legend>
+            <p>*This area includes occupational experience Information</p>
+            <label for="enter_date">First Date in the Sector</label>
+            <input type="date" name="first_date" id="enter_date">
+            <label for="">Duration</label>
+            <input type="radio" id="period1" name="duration">
+            <label for="period1">1-5 years</label>
+            <input type="radio" id="period2" name="duration">
+            <label for="period2">6-10 years</label>
+            <input type="radio" id="period3" name="duration">
+            <label for="period3">11-15 years</label>
+            <input type="radio" id="period4" name="duration">
+            <label for="period4">More than 15 years</label>
+            <label for="languages">Programming Languages</label>
+            <select name="programming_lang" id="languages" size="5" multiple >
+                <option value="C#">C#</option>
+                <option value="C#">PHP</option>
+                <option value="C#">JAVASCRIPT</option>
+                <option value="C#">JAVA</option>
+                <option value="C#">PYTHON</option>
+                <option value="C#">CSS</option>
+            </select>
+
+            <fieldset>
+                <legend>Copy of the Agreement</legend>
+                <textarea name="donwload" id="download" style="resize: none;"></textarea>
+                <input type="submit" name="download" id="download" value="Download the Agreement">
+            </fieldset>
+            <fieldset>
+                <legend>Mail List</legend>
+                <label for="agree">I would like to be in the mail list.</label>
+                <input type="radio" name="mail_list" id="agree">
+                <label for="disagree">I do not want to be in the mail list.</label>
+                <input type="radio" name="mail_list" id="disagree">
+            </fieldset>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
